@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="script.js"></script>
+    <title>To-Do</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>
+        <nav class="navigation">
+          <p class="para app">To do app</p>
+        </nav>
+        <div class="add">
+          <input class="add-items" placeholder="Add Items" type="text" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon add-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m7.5-7.5h-15"
+            />
+          </svg>
+        </div>
+      </h1>
+    </div>
+    <section class="hero-section">
+      <h2 class="text">To Do</h2>
+      <ul class="work-list">
+        <li class="work work-plus">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon add-icon todo-add-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m7.5-7.5h-15"
+            />
+          </svg>
+        </li>
+        <!--
+         <li class="work">
+        <p class="work-text">  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon tick">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+</svg>You have reached end</p>
+    <p class="work-date">date</p>
+      </li>
+-->
+      </ul>
+
+      <div class="complete-section">
+        <h2 class="text">Completed</h2>
+
+        <ul class="complete-list">
+          <!--
+        
+      <li class="work">
+        <p class="work-text complete-text">  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon tick">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+</svg>
+Pick up Email</p>
+<p class="work-date">0-0-2000</p>
+
+      </li>-->
+        </ul>
+      </div>
+    </section>
+    <section class="add-window overlay">
+      <div class="modal-window">
+        <h3><span class="modal-text">Write your work here</span></h3>
+        <input
+          type="text"
+          class="modal-input modal-input-work"
+          placeholder="Study, Gym, Dinner ,...."
+        />
+        <input
+          type="date"
+          class="modal-input modal-input-date"
+          placeholder="Enter final date"
+        />
+
+        <button class="btn done-btn">Done</button>
+      </div>
+    </section>
+    <section class="approve-window overlay">
+      <div class="add-window prove-window">
+        <h3><span class="modal-text">Is this task completed?</span></h3>
+
+        <button class="btn done-btn yes-btn">Yes</button>
+        <button class="btn done-btn no-btn">No</button>
+      </div>
+    </section>
+    <!--<section class="approve-window del-overlay">
+      <div class="add-window del-window prove-window">
+        <h3><span class="modal-text">Want to remove this task?</span></h3>
+
+        <button class="btn done-btn yes-btn">Yes</button>
+        <button class="btn done-btn no-btn">No</button>
+      </div>
+    </section> -->
+  </body>
+</html>
