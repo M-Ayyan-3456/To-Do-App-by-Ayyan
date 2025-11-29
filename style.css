@@ -164,7 +164,7 @@ h2 {
   height: 75vh;
   border-radius: 12px;
   display: grid;
-  row-gap: 15px;
+
   padding: 20px;
   border: 2px solid #0f766e;
 }
@@ -183,8 +183,8 @@ h2 {
   border: none;
   background-color: #3b4b61;
   border-radius: 12px;
-
   padding: 10px;
+  margin-bottom: 20px;
   color: #fff;
 }
 .modal-work {
