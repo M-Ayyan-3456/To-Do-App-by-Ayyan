@@ -183,6 +183,7 @@ h2 {
   border: none;
   background-color: #3b4b61;
   border-radius: 12px;
+  width: 100%;
   padding: 10px;
   color: #fff;
 }
