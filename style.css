@@ -161,10 +161,10 @@ h2 {
 .modal-window {
   background-color: #1e293b;
   width: 350px;
-  height: 65vh;
+  height: 75vh;
   border-radius: 12px;
   display: grid;
-  row-gap: 20px;
+  row-gap: 15px;
   padding: 20px;
   border: 2px solid #0f766e;
 }
@@ -183,9 +183,15 @@ h2 {
   border: none;
   background-color: #3b4b61;
   border-radius: 12px;
-  width: 80%;
+
   padding: 10px;
   color: #fff;
+}
+.modal-work {
+  color: #14b8a6;
+  line-height: 0.1;
+  border-bottom: 2px dotted #14b8a6;
+  margin-bottom: 0;
 }
 
 .modal-input::placeholder {
